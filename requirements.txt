@@ -1,1 +1,2 @@
-streamlit\nplotly
+
+# No dependencies needed as the app.py is a dummy file
