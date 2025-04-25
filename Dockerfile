@@ -22,4 +22,4 @@ ENV PORT=8501
 EXPOSE $PORT
 
 # Run Streamlit
-CMD ["bash", "-c", "echo 'Streamlit cannot be run in this environment'"]
+CMD ["streamlit", "run", "app.py", "--server.port=$PORT", "--server.headless=true"]
