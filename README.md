@@ -1,12 +1,21 @@
 
-# Lab for Taxonomy of Failure Mode in Agentic AI Systems
+# Agentic AI Memory Poisoning Simulator
 
-This repository contains a dummy `app.py` file. The original task was to create a Streamlit application. However, the environment restrictions prevent the use of the `streamlit` library. Therefore, a placeholder file has been created.
+This Streamlit application simulates a memory poisoning attack on an agentic AI system. It allows users to inject a 'poisoned' memory string and observe how the agent's behavior changes in response to subsequent inputs.
 
-To run the application locally, you would need to:
+## Usage
 
-1.  Install Streamlit: `pip install streamlit`
-2.  Replace the contents of `app.py` with the intended Streamlit application code.
-3.  Run the application: `streamlit run app.py`
+1.  Enter a 'Poisoned Memory String'.
+2.  Enter a 'System Prompt'.
+3.  Enter an 'Input Email'.
+4.  Click 'Simulate Attack'.
 
-Please refer to the task description for the intended functionality of the application.
+The application will then simulate the agent's response and indicate whether the attack was successful.
+
+## Explanation
+
+This application demonstrates how memory poisoning can compromise an agentic AI system. The 'Poisoned Memory String' represents a malicious instruction injected into the agent's memory. The 'System Prompt' influences the agent's behavior. By observing the simulation results, you can understand the vulnerability and how prompt engineering can mitigate it.
+
+## License
+
+© 2025 QuantUniversity. All Rights Reserved.
