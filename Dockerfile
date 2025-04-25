@@ -22,4 +22,4 @@ ENV PORT=8501
 EXPOSE $PORT
 
 # Run Streamlit
-CMD ["streamlit", "run", "app.py", "--server.port=$PORT", "--server.headless=true"]
+CMD ["bash", "-c", "streamlit run app.py --server.port=$PORT --server.headless=true"]
